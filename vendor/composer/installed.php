@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'hcodebr/ecommerce',
+        'reference' => 'f4a4664cece76581c4c5843298bef8ca2de9afc4',
+        'name' => 'inaldomonteiroti/ecommerce',
         'dev' => true,
     ),
     'versions' => array(
-        'hcodebr/ecommerce' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        'inaldomonteiroti/ecommerce' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'f4a4664cece76581c4c5843298bef8ca2de9afc4',
             'dev_requirement' => false,
         ),
         'phpmailer/phpmailer' => array(

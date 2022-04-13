@@ -4,10 +4,10 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite5de18054d42a9cd6c99178547d451ca
+class ComposerStaticInit430fdad62d7cf5a7f3dd7ee7d7a9b91d
 {
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
+        0 => __DIR__ . '/..' . '/inaldomonteiroti/php-classes/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -42,9 +42,9 @@ class ComposerStaticInite5de18054d42a9cd6c99178547d451ca
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->fallbackDirsPsr4 = ComposerStaticInite5de18054d42a9cd6c99178547d451ca::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite5de18054d42a9cd6c99178547d451ca::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInite5de18054d42a9cd6c99178547d451ca::$classMap;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit430fdad62d7cf5a7f3dd7ee7d7a9b91d::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit430fdad62d7cf5a7f3dd7ee7d7a9b91d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit430fdad62d7cf5a7f3dd7ee7d7a9b91d::$classMap;
 
         }, null, ClassLoader::class);
     }
